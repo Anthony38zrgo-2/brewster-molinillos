@@ -1,0 +1,49 @@
+/**
+ * TOKENS DE MARCA - BREWSTER PERÚ
+ * Paleta refinada inspirada en:
+ * - Metales: Negro carbón anodizado, Titanio cepillado, Oro Champagne, Acero inoxidable 420.
+ * - Madera: Nogal cálido, Roble tostado.
+ * - Café: Tostado Espresso, Crema sedosa, Grano de origen.
+ */
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  /* Fondos y Superficies Principales */
+  --color-surface-dark: #0d0f12;
+  --color-surface: #13161b;
+  --color-surface-card: #1a1e24;
+  --color-surface-card-hover: #222730;
+  --color-surface-light: #fcfbf9;
+  --color-surface-light-alt: #f5f1eb;
+
+  /* Tonos Metálicos */
+  --color-metal-black: #121417;
+  --color-metal-carbon: #1e2229;
+  --color-metal-titanium: #2e3540;
+  --color-metal-steel: #8e98a8;
+  --color-metal-chrome: #dce1e8;
+
+  /* Tonos Oro Champán / Latón Refinado */
+  --color-gold-champagne: #c9a978;
+  --color-gold-light: #dfc79b;
+  --color-gold-dark: #a9834e;
+  --color-gold-accent: #e5cb9b;
+
+  /* Tonos Madera Noble */
+  --color-wood-walnut: #6e4327;
+  --color-wood-light: #8c5a38;
+  --color-wood-dark: #4a2d1a;
+
+  /* Tonos Café & Tostado */
+  --color-coffee-espresso: #20140e;
+  --color-coffee-bean: #3d2417;
+  --color-coffee-crema: #d6b88d;
+
+  /* Textos y Bordes */
+  --color-text-main: #f3f5f8;
+  --color-text-muted: #9ba3b0;
+  --color-text-dim: #677180;
+  --color-border-subtle: rgba(201, 169, 120, 0.15);
+  --color-border-focus: rgba(201, 169, 120, 0.4);
+}

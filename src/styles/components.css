@@ -1,0 +1,129 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  body {
+    background-color: var(--color-surface-dark);
+    color: var(--color-text-main);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Clases de componentes y utilidades avanzadas */
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .page-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+.section-space {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-space {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+/* Efectos de vidrio metálico / Glassmorphism */
+.glass-card {
+  background: rgba(26, 30, 36, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(201, 169, 120, 0.12);
+  border-radius: 1.25rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(201, 169, 120, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.6), 0 0 20px -4px rgba(201, 169, 120, 0.1);
+}
+
+/* Gradientes metálicos y de brillo */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f7dfbe 0%, #c9a978 50%, #9e7845 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #c9a978 0%, #a9834e 100%);
+}
+
+.bg-metallic-dark {
+  background: linear-gradient(180deg, #14171d 0%, #0d0f12 100%);
+}
+
+/* Botones Premium */
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #c9a978 0%, #a9834e 100%);
+  color: #0d0f12;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 9999px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 16px -2px rgba(201, 169, 120, 0.25);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #dfc79b 0%, #b8935c 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -4px rgba(201, 169, 120, 0.4);
+}
+
+.btn-secondary-metal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: rgba(30, 34, 41, 0.8);
+  border: 1px solid rgba(201, 169, 120, 0.25);
+  color: #f3f5f8;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 9999px;
+  transition: all 0.25s ease;
+}
+
+.btn-secondary-metal:hover {
+  background: rgba(46, 53, 64, 0.9);
+  border-color: rgba(201, 169, 120, 0.6);
+  color: #dfc79b;
+  transform: translateY(-2px);
+}
