@@ -7,20 +7,17 @@ export const siteConfig = {
     name: "BREWSTER",
     legalName: "Brewster Perú",
     tagline: "El secreto de un buen café.",
-    description: "Molinillos manuales de alta precisión diseñados para café de especialidad.",
     instagram: "https://instagram.com/brewster.peru",
-    instagramHandle: "@brewster.peru",
     whatsappNumber: "51987654321",
     whatsappMessage: "¡Hola Brewster Perú! Deseo consultar sobre los molinillos Brewster B6.",
-    email: "contacto@brewster.pe",
     logoUrl: "/images/logo-brewster.jpg",
   },
 
   enabledSections: [
     "header",
     "hero",
-    "catalog",
     "brewing-guide",
+    "colors",
     "about",
     "trust-faq",
     "footer",
@@ -28,24 +25,17 @@ export const siteConfig = {
   ],
 
   hero: {
-    eyebrow: "LÍNEA PROFESIONAL · B6",
-    title: "Molienda de Precisión para Café de Especialidad",
+    titleBase: "Molienda de Precisión para ",
+    titleAccent: "Café de Especialidad",
     description:
       "Precisión micrométrica, materiales de alta durabilidad y control total sobre tu molienda.",
-    primaryAction: { label: "Ver molinillos", href: "#catalog" },
-    heroImage: "/images/trio-grinders-wood.jpg",
-  },
-
-  catalog: {
-    eyebrow: "COLECCIÓN OFICIAL",
-    title: "Molinillos Brewster B6",
-    description: "Diseñados para extraer el verdadero potencial de cada grano.",
+    primaryAction: { label: "Ver guía de molienda", href: "#brewing-guide" },
   },
 
   brewingGuide: {
-    eyebrow: "CALIBRACIÓN",
     title: "Guía de Molienda",
     description: "Ajuste de clics sugerido según tu método de preparación.",
+    image: "/images/pouring-ground-coffee.jpg",
     methods: [
       {
         name: "Espresso & Moka",
@@ -70,45 +60,54 @@ export const siteConfig = {
     ],
   },
 
+  colorOptions: {
+    title: "Colores disponibles",
+    description: "Elige el acabado que mejor combine con tu cocina.",
+    image: "/images/trio-grinders-wood.jpg",
+    colors: [
+      {
+        name: "Champagne Gold",
+        swatch: "#d8b98a",
+        desc: "Dorado champán con perilla de madera natural.",
+      },
+      {
+        name: "Matte Black",
+        swatch: "#2e3338",
+        desc: "Negro mate texturizado con perilla de nogal oscuro.",
+      },
+      {
+        name: "Titanium Gray",
+        swatch: "#9aa0a6",
+        desc: "Grafito metálico cepillado de alta durabilidad.",
+      },
+    ],
+  },
+
   about: {
-    eyebrow: "FILOSOFÍA",
     title: "Diseñado para respetar el origen.",
     description:
-      "Creemos que una buena molienda debe permitir que cada café exprese su verdadero potencial aromático y de sabor.",
-    subDescription:
-      "Herramientas pensadas para honrar el trabajo de los caficultores peruanos en cada taza.",
+      "Creemos que una buena molienda debe permitir que cada café peruano exprese su verdadero potencial aromático, honrando el trabajo de sus caficultores en cada taza.",
     image: "/images/farmer-origin-basket.jpg",
   },
 
   trustFaq: {
-    eyebrow: "COMPRA SEGURA",
     title: "Compra con Tranquilidad",
-    trustPillars: [
-      {
-        title: "Envíos a todo el Perú",
-        desc: "Lima (24–48h) y provincias vía Olva o Shalom con seguimiento.",
-      },
-      {
-        title: "Medios de Pago Flexibles",
-        desc: "Yape, Plin, transferencias bancarias y tarjetas.",
-      },
-      {
-        title: "Soporte & Garantía",
-        desc: "Asesoría directa y repuestos oficiales de fábrica.",
-      },
-    ],
+    description: "Resolvemos tus dudas sobre envíos, pagos y cuidado del molinillo.",
     faqs: [
       {
+        icon: "shipping",
         q: "¿Hacen envíos a todo el Perú?",
-        a: "Sí, realizamos envíos diarios a Lima Metropolitana (24 a 48 horas) y a todas las provincias mediante Olva Courier y Shalom con número de seguimiento.",
+        a: "Sí. Lima Metropolitana en 24 a 48 horas y provincias vía Olva o Shalom con número de seguimiento.",
       },
       {
+        icon: "payment",
         q: "¿Qué medios de pago aceptan?",
-        a: "Aceptamos transferencias bancarias (BCP, Interbank, BBVA), Yape, Plin y tarjetas de crédito/débito.",
+        a: "Transferencias bancarias (BCP, Interbank, BBVA), Yape, Plin y tarjetas de crédito/débito.",
       },
       {
+        icon: "cleaning",
         q: "¿Cómo limpio y mantengo el molinillo?",
-        a: "Incluye una brocha de cerdas finas para limpiar los restos de café tras cada uso. Se recomienda no sumergir en agua para proteger los rodamientos de acero inoxidable.",
+        a: "Usa la brocha incluida tras cada uso. Evita sumergirlo en agua para proteger los rodamientos de acero inoxidable.",
       },
     ],
   },

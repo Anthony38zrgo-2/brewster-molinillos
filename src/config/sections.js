@@ -3,8 +3,8 @@ import { siteConfig } from "./site.config";
 export const SECTION_IDS = Object.freeze([
   "header",
   "hero",
-  "catalog",
   "brewing-guide",
+  "colors",
   "about",
   "trust-faq",
   "footer",

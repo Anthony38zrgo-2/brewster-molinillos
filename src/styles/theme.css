@@ -12,6 +12,8 @@
   /* Fondos y Superficies Principales */
   --color-surface-dark: #0d0f12;
   --color-surface: #13161b;
+  --color-surface-raised: #14171d;
+  --color-surface-deep: #090b0e;
   --color-surface-card: #1a1e24;
   --color-surface-card-hover: #222730;
   --color-surface-light: #fcfbf9;

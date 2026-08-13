@@ -22,9 +22,10 @@ const closeMobileMenu = () => {
 };
 
 const navItems = [
-  { label: "Molinillos", href: "#catalog" },
   { label: "Guía", href: "#brewing-guide" },
+  { label: "Colores", href: "#colors" },
   { label: "Brewster", href: "#about" },
+  { label: "Preguntas", href: "#trust-faq" },
 ];
 </script>
 
@@ -33,21 +34,21 @@ const navItems = [
     :class="[
       'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
       isScrolled
-        ? 'bg-[#0d0f12]/90 backdrop-blur-md border-b border-[#c9a978]/20 shadow-2xl py-3.5'
-        : 'bg-gradient-to-b from-[#0d0f12]/90 to-transparent py-5',
+        ? 'bg-surface-dark/90 backdrop-blur-md border-b border-gold-champagne/20 shadow-2xl py-3.5'
+        : 'bg-gradient-to-b from-surface-dark/90 to-transparent py-5',
     ]"
   >
     <div class="page-container flex items-center justify-between">
       <!-- Logo y Marca -->
       <a href="#top" class="flex items-center gap-3 group">
-        <div class="w-9 h-9 rounded-full overflow-hidden border border-[#c9a978]/40 shadow-inner group-hover:border-[#c9a978] transition-colors flex-shrink-0">
+        <div class="w-9 h-9 rounded-full overflow-hidden border border-gold-champagne/40 shadow-inner group-hover:border-gold-champagne transition-colors flex-shrink-0">
           <img
             :src="siteConfig.brand.logoUrl"
             :alt="siteConfig.brand.name"
             class="w-full h-full object-cover"
           />
         </div>
-        <span class="font-display text-lg sm:text-xl font-bold tracking-widest text-[#f3f5f8] group-hover:text-[#c9a978] transition-colors">
+        <span class="font-display text-lg sm:text-xl font-bold tracking-widest text-text-main group-hover:text-gold-champagne transition-colors">
           {{ siteConfig.brand.name }}
         </span>
       </a>
@@ -58,7 +59,7 @@ const navItems = [
           v-for="item in navItems"
           :key="item.href"
           :href="item.href"
-          class="text-sm font-medium text-[#9ba3b0] hover:text-[#c9a978] transition-colors tracking-wide py-1"
+          class="text-sm font-medium text-text-muted hover:text-gold-champagne transition-colors tracking-wide py-1"
         >
           {{ item.label }}
         </a>
@@ -68,7 +69,7 @@ const navItems = [
       <button
         type="button"
         @click="isMobileMenuOpen = !isMobileMenuOpen"
-        class="md:hidden p-2 rounded-lg text-[#f3f5f8] hover:text-[#c9a978] bg-[#1a1e24]/80 border border-[#c9a978]/20 focus:outline-none"
+        class="md:hidden p-2 rounded-lg text-text-main hover:text-gold-champagne bg-surface-card/80 border border-gold-champagne/20"
         aria-label="Abrir menú de navegación"
       >
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -101,7 +102,7 @@ const navItems = [
     >
       <div
         v-if="isMobileMenuOpen"
-        class="md:hidden bg-[#13161b]/98 backdrop-blur-xl border-b border-[#c9a978]/30 px-6 py-5 mt-3 space-y-3"
+        class="md:hidden bg-surface/98 backdrop-blur-xl border-b border-gold-champagne/30 px-6 py-5 mt-3 space-y-3"
       >
         <nav class="flex flex-col space-y-3">
           <a
@@ -109,7 +110,7 @@ const navItems = [
             :key="item.href"
             :href="item.href"
             @click="closeMobileMenu"
-            class="text-base font-medium text-[#f3f5f8] hover:text-[#c9a978] py-2 border-b border-[#222730] transition-colors"
+            class="text-base font-medium text-text-main hover:text-gold-champagne py-2 border-b border-surface-card-hover transition-colors"
           >
             {{ item.label }}
           </a>
