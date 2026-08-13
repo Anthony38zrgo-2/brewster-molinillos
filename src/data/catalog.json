@@ -1,110 +1,94 @@
 [
   {
     "id": "brewster-b6-gold",
-    "name": "Molinillo Brewster B6 · Champagne Gold",
-    "category": "Molinillos Manuales",
-    "tagline": "Elegancia cálida y precisión de molienda en acabado Champagne Gold.",
+    "name": "Brewster B6 · Champagne Gold",
+    "tagline": "Acabado dorado champán con perilla de madera natural.",
     "price": 229.0,
     "originalPrice": 280.0,
-    "badge": "Más Vendido",
-    "isFeatured": true,
+    "badge": "Más vendido",
     "image": "/images/grinder-champagne-espresso.jpg",
-    "secondaryImage": "/images/trio-grinders-wood.jpg",
-    "specs": {
-      "material": "Cuerpo de aleación de aluminio + Eje y muelas de Acero SUS 420",
-      "burrs": "Muelas cónicas CNC de 38mm",
-      "capacity": "25g de café en grano",
-      "adjustment": "Regulación punto a punto de 36 clics",
-      "handle": "Manivela ergonómica con perilla de madera noble",
-      "weight": "490 gramos",
-      "includes": "Molinillo B6 Champagne Gold, manivela, brocha de limpieza, manual"
-    },
     "highlights": [
-      "Muelas de acero inoxidable 420 para molienda ultra uniforme",
-      "Ideal para Espresso, V60, Prensa Francesa y Aeropress",
-      "Textura antideslizante estriada para fácil agarre",
-      "100% libre de partes plásticas en el núcleo de molienda"
-    ]
+      "Muelas cónicas SUS 420 (38 mm)",
+      "36 ajustes de molienda",
+      "Capacidad: 25 g"
+    ],
+    "specs": {
+      "material": "Cuerpo de aluminio anodizado CNC + Eje central reforzado",
+      "burrs": "Muelas cónicas de acero inoxidable SUS 420 de 38 mm",
+      "capacity": "25 g de café en grano",
+      "adjustment": "Regulador punto a punto con 36 clics audibles",
+      "handle": "Manivela ergonómica de acero con perilla de madera noble",
+      "weight": "490 g",
+      "includes": "Molinillo B6 Champagne Gold, manivela, brocha de limpieza, manual"
+    }
   },
   {
     "id": "brewster-b6-black",
-    "name": "Molinillo Brewster B6 · Matte Black Pro",
-    "category": "Molinillos Manuales",
-    "tagline": "Acabado negro mate anodizado con perilla en nogal oscuro de alta densidad.",
+    "name": "Brewster B6 · Matte Black",
+    "tagline": "Acabado negro mate texturizado con perilla en nogal oscuro.",
     "price": 229.0,
     "originalPrice": 280.0,
-    "badge": "Línea Profesional",
-    "isFeatured": true,
+    "badge": "",
     "image": "/images/grinder-black-loading-beans.jpg",
-    "secondaryImage": "/images/unboxing-b6-black.jpg",
-    "specs": {
-      "material": "Aluminio aeroespacial anodizado negro mate + Acero SUS 420",
-      "burrs": "Muelas cónicas de acero inoxidable grado 420",
-      "capacity": "25g de café en grano",
-      "adjustment": "Regulador micrométrico con clics audibles",
-      "handle": "Manivela metálica negra con pomo de nogal oscuro",
-      "weight": "490 gramos",
-      "includes": "Molinillo B6 Matte Black, manivela, brocha de cerdas finas, caja premium"
-    },
     "highlights": [
-      "Acabado Matte Black anti-huellas",
-      "Doble rodamiento de alta precisión para cero oscilación",
-      "Molienda consistente desde ultrafina hasta gruesa",
-      "Diseño compacto para uso en casa, oficina y viajes"
-    ]
+      "Muelas cónicas SUS 420 (38 mm)",
+      "36 ajustes de molienda",
+      "Capacidad: 25 g"
+    ],
+    "specs": {
+      "material": "Aluminio aeroespacial anodizado negro mate anti-huellas",
+      "burrs": "Muelas cónicas de acero inoxidable SUS 420 de 38 mm",
+      "capacity": "25 g de café en grano",
+      "adjustment": "Regulador punto a punto con 36 clics audibles",
+      "handle": "Manivela metálica negra con perilla de madera de nogal",
+      "weight": "490 g",
+      "includes": "Molinillo B6 Matte Black, manivela, brocha de cerdas finas, caja rígida"
+    }
   },
   {
     "id": "brewster-b6-titanium",
-    "name": "Molinillo Brewster B6 · Titanium Gray",
-    "category": "Molinillos Manuales",
-    "tagline": "Tono grafito metálico cepillado. Estética sobria con máxima durabilidad.",
+    "name": "Brewster B6 · Titanium Gray",
+    "tagline": "Tono grafito metálico cepillado de alta durabilidad.",
     "price": 229.0,
     "originalPrice": 280.0,
-    "badge": "Stock Limitado",
-    "isFeatured": true,
+    "badge": "Stock limitado",
     "image": "/images/trio-grinders-dark.jpg",
-    "secondaryImage": "/images/trio-grinders-wood.jpg",
-    "specs": {
-      "material": "Aluminio CNC titanio cepillado + Acero inoxidable SUS 420",
-      "burrs": "Muelas cónicas pentagonales de 38mm",
-      "capacity": "25g de café en grano",
-      "adjustment": "36 clics de calibración precisa",
-      "handle": "Manivela de acero con perilla de madera natural pulida",
-      "weight": "490 gramos",
-      "includes": "Molinillo B6 Titanium Gray, manivela, brocha de limpieza, caja rígida"
-    },
     "highlights": [
-      "Tono grafito metalizado exclusivo",
-      "Molienda suave y rápida gracias a rodamientos dobles",
-      "Excelente retención casi nula de café molido",
-      "Caja protectora rígida para transporte seguro"
-    ]
+      "Muelas cónicas SUS 420 (38 mm)",
+      "36 ajustes de molienda",
+      "Capacidad: 25 g"
+    ],
+    "specs": {
+      "material": "Aluminio mecanizado CNC acabado gris grafito cepillado",
+      "burrs": "Muelas cónicas de acero inoxidable SUS 420 de 38 mm",
+      "capacity": "25 g de café en grano",
+      "adjustment": "Regulador punto a punto con 36 clics audibles",
+      "handle": "Manivela de acero con perilla de madera pulida",
+      "weight": "490 g",
+      "includes": "Molinillo B6 Titanium Gray, manivela, brocha de limpieza, manual"
+    }
   },
   {
     "id": "brewster-kit-barista",
-    "name": "Pack Maestro Barista Pro · Brewster B6",
-    "category": "Kits y Promociones",
-    "tagline": "El set completo para iniciar tu ritual de molienda profesional.",
+    "name": "Pack Maestro Barista Pro",
+    "tagline": "Molinillo B6 a elección + estuche rígido + brocha de precisión.",
     "price": 269.0,
     "originalPrice": 340.0,
-    "badge": "Pack Recomendado",
-    "isFeatured": true,
+    "badge": "Pack",
     "image": "/images/unboxing-b6-black.jpg",
-    "secondaryImage": "/images/box-packaging.jpg",
-    "specs": {
-      "material": "Set completo con Molinillo B6 (color a elegir) + Accesorios de barismo",
-      "burrs": "Muelas cónicas CNC de acero SUS 420",
-      "capacity": "25g en tolva de molienda",
-      "adjustment": "Calibración para todos los métodos de filtrado",
-      "handle": "Manivela con empuñadura de madera de nogal",
-      "weight": "680 gramos (kit completo)",
-      "includes": "Molinillo B6 a elección + Brocha de cerdas pro + Caja rígida de lujo + Guía de calibración física"
-    },
     "highlights": [
-      "Elige el color de tu molinillo (Gold, Black o Titanium)",
-      "Brocha de limpieza profesional incluida",
-      "Caja de presentación premium de regalo",
-      "Envío prioritario con seguimiento en Lima y provincias"
-    ]
+      "Molinillo B6 (color a elegir)",
+      "Brocha pro y estuche rígido",
+      "Guía física de calibración"
+    ],
+    "specs": {
+      "material": "Set completo: Molinillo B6 + accesorios oficiales de mantenimiento",
+      "burrs": "Muelas cónicas de acero inoxidable SUS 420 de 38 mm",
+      "capacity": "25 g en tolva",
+      "adjustment": "36 clics para todos los métodos de extracción",
+      "handle": "Manivela ergonómica de acero y madera",
+      "weight": "680 g (set completo)",
+      "includes": "Molinillo B6 (Gold, Black o Titanium), brocha de precisión, caja premium rígida, guía de calibración"
+    }
   }
 ]
