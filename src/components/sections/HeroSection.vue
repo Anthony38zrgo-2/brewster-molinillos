@@ -1,13 +1,14 @@
 <script setup>
 import { ref } from "vue";
 import { siteConfig } from "@/config/site.config";
+import { assetUrl } from "@/utils/assets";
 
-const activePreview = ref("/images/grinder-champagne-espresso.jpg");
+const activePreview = ref(assetUrl("images/grinder-champagne-espresso.jpg"));
 
 const previewList = [
-  { label: "Champagne Gold", src: "/images/grinder-champagne-espresso.jpg" },
-  { label: "Matte Black", src: "/images/grinder-black-loading-beans.jpg" },
-  { label: "Pack & Estuche", src: "/images/unboxing-b6-black.jpg" },
+  { label: "Champagne Gold", src: assetUrl("images/grinder-champagne-espresso.jpg") },
+  { label: "Matte Black", src: assetUrl("images/grinder-black-loading-beans.jpg") },
+  { label: "Pack & Estuche", src: assetUrl("images/unboxing-b6-black.jpg") },
 ];
 </script>
 

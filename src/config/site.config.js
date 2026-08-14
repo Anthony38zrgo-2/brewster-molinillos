@@ -2,6 +2,8 @@
  * CONFIGURACIÓN CENTRAL DEL SITIO - BREWSTER PERÚ
  * Configuración concisa, enfocada en producto y experiencia.
  */
+import { assetUrl } from "@/utils/assets";
+
 export const siteConfig = {
   brand: {
     name: "BREWSTER",
@@ -10,7 +12,7 @@ export const siteConfig = {
     instagram: "https://instagram.com/brewster.peru",
     whatsappNumber: "51987654321",
     whatsappMessage: "¡Hola Brewster Perú! Deseo consultar sobre los molinillos Brewster B6.",
-    logoUrl: "/images/logo-brewster.jpg",
+    logoUrl: assetUrl("images/logo-brewster.jpg"),
   },
 
   enabledSections: [
@@ -35,7 +37,7 @@ export const siteConfig = {
   brewingGuide: {
     title: "Guía de Molienda",
     description: "Ajuste de clics sugerido según tu método de preparación.",
-    image: "/images/pouring-ground-coffee.jpg",
+    image: assetUrl("images/pouring-ground-coffee.jpg"),
     methods: [
       {
         name: "Espresso & Moka",
@@ -63,7 +65,7 @@ export const siteConfig = {
   colorOptions: {
     title: "Colores disponibles",
     description: "Elige el acabado que mejor combine con tu cocina.",
-    image: "/images/trio-grinders-wood.jpg",
+    image: assetUrl("images/trio-grinders-wood.jpg"),
     colors: [
       {
         name: "Champagne Gold",
@@ -87,7 +89,7 @@ export const siteConfig = {
     title: "Diseñado para respetar el origen.",
     description:
       "Creemos que una buena molienda debe permitir que cada café peruano exprese su verdadero potencial aromático, honrando el trabajo de sus caficultores en cada taza.",
-    image: "/images/farmer-origin-basket.jpg",
+    image: assetUrl("images/farmer-origin-basket.jpg"),
   },
 
   trustFaq: {
