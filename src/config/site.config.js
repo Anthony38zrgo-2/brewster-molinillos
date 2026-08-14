@@ -10,8 +10,9 @@ export const siteConfig = {
     legalName: "Brewster Perú",
     tagline: "El secreto de un buen café.",
     instagram: "https://instagram.com/brewster.peru",
-    whatsappNumber: "51987654321",
-    whatsappMessage: "¡Hola Brewster Perú! Deseo consultar sobre los molinillos Brewster B6.",
+    whatsappNumber: "51959447690",
+    whatsappMessage:
+      "¡Hola Brewster Perú! Deseo consultar sobre los molinillos Brewster B6.",
     logoUrl: assetUrl("images/logo-brewster.jpg"),
   },
 
@@ -94,7 +95,8 @@ export const siteConfig = {
 
   trustFaq: {
     title: "Compra con Tranquilidad",
-    description: "Resolvemos tus dudas sobre envíos, pagos y cuidado del molinillo.",
+    description:
+      "Resolvemos tus dudas sobre envíos, pagos y cuidado del molinillo.",
     faqs: [
       {
         icon: "shipping",
