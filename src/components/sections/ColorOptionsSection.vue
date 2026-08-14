@@ -36,11 +36,11 @@ import { siteConfig } from "@/config/site.config";
 
         <!-- Imagen de los molinillos -->
         <div class="lg:col-span-6 lg:order-2">
-          <div class="rounded-3xl overflow-hidden border border-gold-champagne/30 shadow-2xl">
+          <div class="rounded-3xl overflow-hidden border border-gold-champagne/30 shadow-2xl bg-surface-dark">
             <img
               :src="siteConfig.colorOptions.image"
               alt="Colores disponibles de molinillos Brewster B6"
-              class="w-full aspect-[4/3] object-cover"
+              class="w-full aspect-[4/3] object-cover object-center"
             />
           </div>
         </div>

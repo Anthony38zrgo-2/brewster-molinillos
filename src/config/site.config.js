@@ -65,7 +65,7 @@ export const siteConfig = {
   colorOptions: {
     title: "Colores disponibles",
     description: "Elige el acabado que mejor combine con tu cocina.",
-    image: assetUrl("images/trio-grinders-wood.jpg"),
+    image: assetUrl("images/trio-grinders-studio.png"),
     colors: [
       {
         name: "Champagne Gold",
