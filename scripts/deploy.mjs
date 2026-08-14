@@ -1,13 +1,15 @@
 import { spawnSync } from "node:child_process";
 
 const run = (command, args, options = {}) => {
-  const executable = process.platform === "win32" && command === "npm" ? "npm.cmd" : command;
-  const result = spawnSync(executable, args, {
+  const result = spawnSync(command, args, {
     encoding: "utf8",
     stdio: options.capture ? "pipe" : "inherit",
   });
 
   if (result.status !== 0) {
+    if (result.error) {
+      console.error(`No se pudo ejecutar ${command}: ${result.error.message}`);
+    }
     if (options.capture && result.stderr) {
       console.error(result.stderr.trim());
     }
@@ -32,7 +34,14 @@ if (changes) {
 }
 
 console.log("Validando el build de producción...");
-run("npm", ["run", "build"]);
+const npmExecPath = process.env.npm_execpath;
+
+if (!npmExecPath) {
+  console.error("No se encontró el ejecutable de npm. Ejecuta este script mediante npm run deploy.");
+  process.exit(1);
+}
+
+run(process.execPath, [npmExecPath, "run", "build"]);
 
 console.log("Creando el evento de despliegue...");
 run("git", ["commit", "--allow-empty", "-m", "chore: deploy GitHub Pages"]);
